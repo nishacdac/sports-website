@@ -1,0 +1,25 @@
+<div class="about-us-section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>{{ companyInfo.description }}</p>
+  
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Our Mission</h3>
+          <p>{{ companyInfo.mission }}</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Our Vision</h3>
+          <p>{{ companyInfo.vision }}</p>
+        </div>
+      </div>
+  
+      <div class="values-section">
+        <h3>Our Core Values</h3>
+        <ul>
+          <li *ngFor="let value of companyInfo.values">{{ value }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  

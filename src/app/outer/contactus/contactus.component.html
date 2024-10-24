@@ -1,0 +1,31 @@
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <div>
+    <h2 class="heading1">Contact Us</h2> 
+    <label for="name">Name</label>
+    <input id="name" formControlName="name" type="text" />
+    <small *ngIf="submitted && contactForm.controls['name'].errors" class="error">
+      Name is required.
+    </small>
+  </div>
+
+  <div>
+    <label for="email">Email</label>
+    <input id="email" formControlName="email" type="email" />
+    <small *ngIf="submitted && contactForm.controls['email'].errors?.['required']" class="error">
+      Email is required.
+    </small>
+    <small *ngIf="submitted && contactForm.controls['email'].errors?.['email']" class="error">
+      Invalid email format.
+    </small>
+  </div>
+
+  <div>
+    <label for="message">Message</label>
+    <textarea id="message" formControlName="message"></textarea>
+    <small *ngIf="submitted && contactForm.controls['message'].errors?.['required']" class="error">
+      Message is required.
+    </small>
+  </div>
+
+  <button type="submit">Submit</button>
+</form>

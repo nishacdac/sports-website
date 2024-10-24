@@ -1,0 +1,65 @@
+/* General form styles */
+form {
+  max-width: 600px; /* Set a maximum width for the form */
+  margin: 20px auto; /* Center the form horizontally with margin */
+  padding: 20px; /* Add padding inside the form */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Label styles */
+label {
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Space below labels */
+  font-weight: bold; /* Make labels bold */
+  color: #003366; /* Dark blue color */
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding inside inputs */
+  margin-bottom: 15px; /* Space below inputs */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Textarea specific styles */
+textarea {
+  height: 100px; /* Set a height for the textarea */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Button styles */
+button {
+  padding: 10px 15px; /* Padding inside the button */
+  background-color: #003366; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #f0a500; /* Change button background on hover */
+}
+
+/* Error message styles */
+.error {
+  color: red; /* Red color for error messages */
+  font-size: 12px; /* Smaller font size for error messages */
+  margin-top: -10px; /* Negative margin to overlap with the input */
+  margin-bottom: 10px; /* Space below error messages */
+}
+
+.heading1{
+  text-align: center;
+  margin: auto;
+  
+}

@@ -1,0 +1,60 @@
+/* Hero Section
+.hero {
+    background-image: url('/assets/sportsimg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(13, 5, 5);
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color:black;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .buy-btn, .sell-btn {
+    background-color: #f0a500;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .buy-btn:hover, .sell-btn:hover {
+    background-color: #FF6600;
+  }
+  
+ 
+  .featured {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .featured h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .featured p {
+    font-size: 1.2em;
+  }
+   */
