@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
-
+import { RegistrationComponent } from './outer/registration/registration.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './Admin/dashboard/dashboard.component';
@@ -24,6 +25,7 @@ import { CustomerLoginComponent } from './outer/customer.login/customer.login.co
 @NgModule({
   declarations: [
     AppComponent,
+    RegistrationComponent,
     DashboardComponent,
     ProfileComponent,
     LayoutComponent,
@@ -35,18 +37,20 @@ import { CustomerLoginComponent } from './outer/customer.login/customer.login.co
     AboutusComponent,
     ContactUsComponent,
     HomeComponent,
-    LoginpageComponent,
+    // LoginpageComponent,
     LoginpageComponent,
     CategoriesComponent,
     ProductsComponent,
     BrandsComponent,
     AboutusComponent,
-    CustomerLoginComponent
+    CustomerLoginComponent,
+    // RegistrationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
