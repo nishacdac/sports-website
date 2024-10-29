@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './Admin/dashboard/dashboard.component';
@@ -19,6 +17,8 @@ import { ProductsComponent } from './outer/products/products.component';
 import { BrandsComponent } from './outer/brands/brands.component';
 import { LayoutComponent } from './layout1/outerlayout/layout/layout.component';
 import { CustomerLoginComponent } from './outer/customer.login/customer.login.component';
+// import { RegistrationComponent } from './layout/outer/registration/registration.component';
+
 // import { AboutusComponent } from './outer/aboutus/aboutus.component';
 
 @NgModule({
@@ -41,7 +41,9 @@ import { CustomerLoginComponent } from './outer/customer.login/customer.login.co
     ProductsComponent,
     BrandsComponent,
     AboutusComponent,
-    CustomerLoginComponent
+    CustomerLoginComponent,
+    // RegistrationComponent,
+   
   ],
   imports: [
     BrowserModule,
