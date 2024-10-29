@@ -6,6 +6,7 @@ import { HomeComponent } from './outer/home/home.component';
 import { CustomerLoginComponent } from './outer/customer.login/customer.login.component';
 import { AboutusComponent } from './outer/aboutus/aboutus.component';
 import { ContactUsComponent } from './outer/contactus/contactus.component';
+import { RegistrationComponent } from './outer/registration/registration.component';
 
 const routes: Routes = [
   {
@@ -18,7 +19,9 @@ const routes: Routes = [
       { path: 'admin-login', component: LoginpageComponent },
       { path: 'customer-login', component: CustomerLoginComponent },
       { path: 'aboutus',component:AboutusComponent},
-      { path: 'contactus',component:ContactUsComponent}
+      { path: 'contactus',component:ContactUsComponent},
+      { path: 'registration',component:RegistrationComponent} 
+      
     ]
   }
 ];

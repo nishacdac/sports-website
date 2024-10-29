@@ -1,6 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
+<<<<<<< HEAD
+=======
+import { HttpClientModule } from '@angular/common/http';
+
+import { RegistrationComponent } from './outer/registration/registration.component';
+>>>>>>> 8120e2bc359f91141b69fba5aef269d7af0514a2
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './Admin/dashboard/dashboard.component';
@@ -24,6 +30,7 @@ import { CustomerLoginComponent } from './outer/customer.login/customer.login.co
 @NgModule({
   declarations: [
     AppComponent,
+    RegistrationComponent,
     DashboardComponent,
     ProfileComponent,
     LayoutComponent,
@@ -35,20 +42,25 @@ import { CustomerLoginComponent } from './outer/customer.login/customer.login.co
     AboutusComponent,
     ContactUsComponent,
     HomeComponent,
-    LoginpageComponent,
+    // LoginpageComponent,
     LoginpageComponent,
     CategoriesComponent,
     ProductsComponent,
     BrandsComponent,
     AboutusComponent,
     CustomerLoginComponent,
+<<<<<<< HEAD
     // RegistrationComponent,
    
+=======
+    // RegistrationComponent
+>>>>>>> 8120e2bc359f91141b69fba5aef269d7af0514a2
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
